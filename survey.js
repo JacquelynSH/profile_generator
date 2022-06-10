@@ -22,6 +22,7 @@ rl.question('What is your first name? ', (firstName) => {
           console.log(`${firstName}'s favorite animal is a ${animal}. They like their eggs ${eggs}, and their favorite color is ${color}.
           If ${firstName} could be a tree, they would be a ${tree}`);
 
+
           rl.close();
         });
       });
